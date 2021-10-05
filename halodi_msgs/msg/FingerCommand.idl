@@ -1,0 +1,25 @@
+
+module halodi_msgs {
+    module msg {
+    
+        /**
+          * Command to send to a hand, all are sent as floats but interpreted differently
+          *
+          */
+        @TypeCode(type="halodi_msgs::msg::dds_::FingerCommand_")
+        struct FingerCommand
+        {
+          double thumb; // bool, only 0.0 is False
+          double indexFinger; // bool, only 0.0 is False
+          double middleFinger; // bool, only 0.0 is False
+          double ringFinger; // bool, only 0.0 is False
+          double littleFinger; // bool, only 0.0 is False
+          double endPosition; // ushort (16 bit unsigned), somewhere between approximately 12000.0 - 15000.0 for each finger, see bebionic docs
+          double speed; // byte (8 big unsigned), clipped to 0.0 - 255.0
+          double currentLimit; // byte (8 bit unsigned), clipped to 0.0 - 100.0
+
+        };
+        
+    };
+};
+  
