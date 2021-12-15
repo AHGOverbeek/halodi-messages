@@ -1,3 +1,5 @@
+**This is a fork of the Halodi repo, with added FingerCommand message to control multiple fingers at the same time.**
+
 # Halodi-messages
 
 This repository contains custom ROS2/IDL messages from Halodi Robotics. These form the main API for the Halodi controller.
