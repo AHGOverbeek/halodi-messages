@@ -1,4 +1,4 @@
-**This is a fork of the Halodi repo, with added FingerCommand message to control multiple fingers at the same time.**
+**This is a fork of the Halodi repo, with added FingerCommand message to control multiple fingers at the same time. Does nto work yet.**
 
 # Halodi-messages
 
