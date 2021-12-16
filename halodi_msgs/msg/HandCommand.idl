@@ -37,9 +37,6 @@ module halodi_msgs {
             double middleFinger; // bool, only 0.0 is False
             double ringFinger; // bool, only 0.0 is False
             double littleFinger; // bool, only 0.0 is False
-            double endPosition; // ushort (16 bit unsigned), somewhere between approximately 12000.0 - 15000.0 for each finger, see bebionic docs
-            double speed; // byte (8 big unsigned), clipped to 0.0 - 255.0
-            double currentLimit; // byte (8 bit unsigned), clipped to 0.0 - 100.0
         };
         
     };
